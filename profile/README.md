@@ -32,7 +32,7 @@ We have implemented three predictive models using Flask to serve machine learnin
 - **Admin Dashboard**: A web-based application for administrators to manage users, transactions, loans, and insurance policies.
 - **Client Dashboard**: A user-friendly interface for clients to interact with the platform, view accounts, apply for loans, and manage insurance policies.
 
-Both applications are built using Angular and are fully responsive.
+Both applications are built using React and are fully responsive.
 
 ---
 
@@ -58,7 +58,7 @@ The application is hosted on AWS with the following resources:
 ### **User Management**
 - Registration and login.
 - Profile management.
-- Secure authentication with OAuth2/JWT.
+
 
 ### **Financial Transactions**
 - Real-time transaction processing.
@@ -112,8 +112,7 @@ The application is hosted on AWS with the following resources:
 - Docker
 - Kubernetes (kubectl)
 - AWS CLI
-- Angular CLI (for frontend development)
-- Java 11 (for Spring Boot services)
+- Java 21 (for Spring Boot services)
 
 ### **Setup Instructions**
 1. Clone the repository.
@@ -132,21 +131,23 @@ The application is hosted on AWS with the following resources:
 ---
 
 ## Contact
-For any inquiries or contributions, please reach out via [contact@example.com](mailto:contact@example.com).
+For any inquiries or contributions, please reach out via [mouadrguibi900@gmail.com](mailto:mouadrguibi900@gmail.com).
 
 ---
 
 ## Contributors
-- DevOps Engineer: [Your Name]
-- Backend Developer: [Name]
-- Frontend Developer: [Name]
-- Data Scientist: [Name]
-- Cloud Specialist: [Name]
+- DevOps Engineer: [Mohamed Mouad Rguibi]
+- Backend Engineer: [Ait Said Ayoub]
+- Frontend Engineer: [Taous Samir]
+- Data Scientist Engineer: [Salah El jably]
+- Cloud Engineer: [Sabir Achraf]
 
 ---
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
+
+## ASMAS BANK
 
 
 
