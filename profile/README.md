@@ -20,6 +20,8 @@ The system is built using Spring Boot microservices, each serving a specific pur
 - **Insurance Management Microservice**: Manages policies for car and health insurance.
 
 Each microservice is deployed in a containerized environment using Docker and orchestrated via Kubernetes (AWS EKS).
+![WhatsApp Image 2025-01-20 at 03 05 57](https://github.com/user-attachments/assets/5a51bf98-43ca-466d-89f9-3784c9380659)
+
 
 ### 2. **Predictive Models**
 We have implemented three predictive models using Flask to serve machine learning APIs:
