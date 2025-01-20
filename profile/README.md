@@ -48,6 +48,10 @@ Both applications are built using React and are fully responsive.
 ### 1. **Containerization**
 All components, including microservices and Flask models, are containerized using Docker for consistency and portability.
 
+![Uploading PIPELINES.drawio(1).png…]()
+
+
+
 ### 2. **Orchestration**
 Kubernetes (AWS EKS) is used to manage and scale containers across multiple nodes. Each service has its own deployment and service configuration in Kubernetes.
 
@@ -57,6 +61,9 @@ The application is hosted on AWS with the following resources:
 - **Database**: RDS (PostgreSQL) for relational data.
 - **Storage**: S3 for storing documents and other static assets.
 - **Monitoring**: AWS CloudWatch and Prometheus for real-time monitoring and alerting.
+
+![image](https://github.com/user-attachments/assets/98c37b81-88b1-4e73-b31b-8a90f1f7feeb)
+
 
 ---
 
@@ -143,11 +150,13 @@ For any inquiries or contributions, please reach out via [mouadrguibi900@gmail.c
 ---
 
 ## Contributors
-- DevOps Engineer: [Mohamed Mouad Rguibi]
-- Backend Engineer: [Ait Said Ayoub]
-- Frontend Engineer: [Taous Samir]
-- Data Scientist Engineer: [Salah El jably]
-- Cloud Engineer: [Sabir Achraf]
+- DevOps Engineer: [Mohamed Mouad Rguibi] [mouadrguibi900@gmail.com](mailto:mouadrguibi900@gmail.com).
+- Backend Engineer: [Ait Said Ayoub] [ayoubaitsaid38@gmail.com](mailto:ayoubaitsaid38@gmail.com).
+- Frontend Engineer: [Taous Samir]  [samirtaous01@gmail.com](mailto:samirtaous01@gmail.com).
+- Data Scientist Engineer: [Salah El jably] [salah8jab@gmail.com](mailto:salah8jab@gmail.com).
+- Cloud Engineer: [Sabir Achraf] [sabirachraf032@gmail.com](mailto:sabirachraf032@gmail.com).
+  
+![image](https://github.com/user-attachments/assets/36f9c204-571c-4dd4-b187-0cc4f7cdb7fa)
 
 ---
 
