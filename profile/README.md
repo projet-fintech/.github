@@ -79,7 +79,6 @@ The application is hosted on AWS with the following resources:
 - Registration and login.
 - Profile management.
 
-
 ### **Financial Transactions**
 - Real-time transaction processing.
 - Support for deposits, withdrawals, and transfers.
@@ -98,7 +97,23 @@ The application is hosted on AWS with the following resources:
 
 ### **Dashboards**
 - Admin Dashboard: Analytics, user and loan management.
+  ![image](https://github.com/user-attachments/assets/9b1e9d23-08ce-41e2-970b-6574ad42568e)
+
+![image](https://github.com/user-attachments/assets/173cf181-951d-486f-aa23-424907449bad)
+
+![image](https://github.com/user-attachments/assets/793908da-5687-4b5c-b892-7771a77f6ff0)
+
+![image](https://github.com/user-attachments/assets/b9ede3d6-f340-46bb-bc05-4c090e1a812d)
+
 - Client Dashboard: Personalized user experience with account and loan details.
+  ![image](https://github.com/user-attachments/assets/c88669bd-ed7f-442b-a7d9-9254bfce7eb6)
+
+  ![image](https://github.com/user-attachments/assets/a3bd2798-6bc9-4d96-b147-1149854fe822)
+
+  ![image](https://github.com/user-attachments/assets/a6f1dad7-fef6-4151-a3f0-0e7389d3dd83)
+
+   ![image](https://github.com/user-attachments/assets/58b943d1-2b39-40ad-b95c-558db552dcb7)
+
 
 ---
 
