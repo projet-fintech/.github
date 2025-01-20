@@ -53,7 +53,7 @@ Both applications are built using React and are fully responsive.
 All components, including microservices and Flask models, are containerized using Docker for consistency and portability.
 
 
-![Uploading PIPELINES.drawio(1).png…]()
+![PIPELINES drawio(1)](https://github.com/user-attachments/assets/698f8513-ac63-4af7-a2fa-dfd6037e1266)
 
 
 
