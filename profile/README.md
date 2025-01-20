@@ -195,8 +195,8 @@ The application is hosted on AWS with the following resources:
    kubectl apply -f k8s-manifests/
    ```
 10. Access the frontend applications via the respective URLs:
-    - Admin Dashboard: `http://<admin-dashboard-url>`
-    - Client Dashboard: `http://<client-dashboard-url>`
+    - Admin Dashboard: `http://a2a3c3b3bc0c847fabacdef356baf072-447373145.eu-west-3.elb.amazonaws.com/`
+    - Client Dashboard: `http://adf38ef4bda5a4593988746d5c88f68a-935047858.eu-west-3.elb.amazonaws.com/`
 
 ---
 ## Contact
