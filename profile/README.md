@@ -13,6 +13,10 @@ This repository contains a cloud-native FinTech application designed to deliver 
 
 ![image](https://github.com/user-attachments/assets/6a3013a2-9e44-41d4-b272-58d59c926e00)
 
+### Conception:
+
+![image](https://github.com/user-attachments/assets/f3d85f83-c722-4f9f-bacc-a4d7cfc1ff76)
+
 
 The system is built using Spring Boot microservices, each serving a specific purpose:
 
@@ -48,7 +52,9 @@ Both applications are built using React and are fully responsive.
 ### 1. **Containerization**
 All components, including microservices and Flask models, are containerized using Docker for consistency and portability.
 
+
 ![Uploading PIPELINES.drawio(1).png…]()
+
 
 
 
