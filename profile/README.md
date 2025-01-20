@@ -10,7 +10,10 @@ This repository contains a cloud-native FinTech application designed to deliver 
 ## Architecture
 
 ### 1. **Microservices**
-![WhatsApp Image 2025-01-20 at 03 05 57](https://github.com/user-attachments/assets/5a51bf98-43ca-466d-89f9-3784c9380659)
+
+![image](https://github.com/user-attachments/assets/6a3013a2-9e44-41d4-b272-58d59c926e00)
+
+
 The system is built using Spring Boot microservices, each serving a specific purpose:
 
 - **User Microservice**: Manages user accounts, profiles, and authentication data.
