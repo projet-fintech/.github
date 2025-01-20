@@ -97,7 +97,8 @@ The application is hosted on AWS with the following resources:
 
 ### **Dashboards**
 - Admin Dashboard: Analytics, user and loan management.
-  ![image](https://github.com/user-attachments/assets/9b1e9d23-08ce-41e2-970b-6574ad42568e)
+  
+![image](https://github.com/user-attachments/assets/9b1e9d23-08ce-41e2-970b-6574ad42568e)
 
 ![image](https://github.com/user-attachments/assets/173cf181-951d-486f-aa23-424907449bad)
 
@@ -105,14 +106,17 @@ The application is hosted on AWS with the following resources:
 
 ![image](https://github.com/user-attachments/assets/b9ede3d6-f340-46bb-bc05-4c090e1a812d)
 
+
 - Client Dashboard: Personalized user experience with account and loan details.
-  ![image](https://github.com/user-attachments/assets/c88669bd-ed7f-442b-a7d9-9254bfce7eb6)
 
-  ![image](https://github.com/user-attachments/assets/a3bd2798-6bc9-4d96-b147-1149854fe822)
+  
+![image](https://github.com/user-attachments/assets/c88669bd-ed7f-442b-a7d9-9254bfce7eb6)
 
-  ![image](https://github.com/user-attachments/assets/a6f1dad7-fef6-4151-a3f0-0e7389d3dd83)
+![image](https://github.com/user-attachments/assets/a3bd2798-6bc9-4d96-b147-1149854fe822)
 
-   ![image](https://github.com/user-attachments/assets/58b943d1-2b39-40ad-b95c-558db552dcb7)
+![image](https://github.com/user-attachments/assets/a6f1dad7-fef6-4151-a3f0-0e7389d3dd83)
+
+![image](https://github.com/user-attachments/assets/58b943d1-2b39-40ad-b95c-558db552dcb7)
 
 
 ---
@@ -139,32 +143,62 @@ The application is hosted on AWS with the following resources:
 ### **Monitoring**
 - Prometheus and Grafana
 
+
 ---
 
 ## Getting Started
 
 ### **Prerequisites**
-- Docker
-- Kubernetes (kubectl)
-- AWS CLI
-- Java 21 (for Spring Boot services)
+* Docker
+* Kubernetes (kubectl)
+* AWS CLI
+* Java 21 (for Spring Boot services)
+* Jenkins (for pipeline orchestration)
+* Kafka (with the following topics configured):
+  - `account-created-topic`
+  - `account-details-reply`
+  - `account-details-reply-topic`
+  - `account-details-request-topic`
+  - `account-update-topic`
+  - `fee-payment-topic`
+  - `replay-topic`
+  - `statement-generated-topic`
+  - `transaction-topic`
+  - `user-events`
+    ![image](https://github.com/user-attachments/assets/d1c1f28f-1b57-4148-a303-e6abda0d7d57)
+
 
 ### **Setup Instructions**
 1. Clone the repository.
-2. Build Docker images for all services:
+2. Configure databases as specified in the `application.properties` files of each service.
+3. Build Docker images for all services:
    ```bash
    docker-compose build
    ```
-3. Deploy to Kubernetes:
+4. Configure Kafka with the required topics (see the above list).
+5. Load the Maven dependencies for backend services:
+   ```bash
+   mvn clean install
+   ```
+6. Install frontend dependencies for both admin and client dashboards:
+   ```bash
+   npm install
+   ```
+7. Install and configure Jenkins for CI/CD:
+   - Create Jenkins jobs for each repository.
+   - Link the jobs to their respective pipelines.
+8. Deploy the infrastructure to AWS:
+   - Set up EKS, ECR, and EC2 instances.
+   - Use Terraform or AWS CLI to provision resources.
+9. Deploy the application to Kubernetes:
    ```bash
    kubectl apply -f k8s-manifests/
    ```
-4. Access the frontend applications via the respective URLs:
-   - Admin Dashboard: `http://<admin-dashboard-url>`
-   - Client Dashboard: `http://<client-dashboard-url>`
+10. Access the frontend applications via the respective URLs:
+    - Admin Dashboard: `http://<admin-dashboard-url>`
+    - Client Dashboard: `http://<client-dashboard-url>`
 
 ---
-
 ## Contact
 For any inquiries or contributions, please reach out via [mouadrguibi900@gmail.com](mailto:mouadrguibi900@gmail.com).
 
