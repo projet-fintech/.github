@@ -1,5 +1,6 @@
 ## ASMAS BANK
 
+![image](https://github.com/user-attachments/assets/580617f8-cb11-46fd-8db0-d53fc8d64203)
 
 ## Overview
 This repository contains a cloud-native FinTech application designed to deliver secure, efficient, and scalable financial services. The application is based on a microservices architecture and includes predictive models for loan approval and insurance management. It also provides separate frontend applications for admin and client dashboards.
@@ -9,6 +10,7 @@ This repository contains a cloud-native FinTech application designed to deliver 
 ## Architecture
 
 ### 1. **Microservices**
+![WhatsApp Image 2025-01-20 at 03 05 57](https://github.com/user-attachments/assets/5a51bf98-43ca-466d-89f9-3784c9380659)
 The system is built using Spring Boot microservices, each serving a specific purpose:
 
 - **User Microservice**: Manages user accounts, profiles, and authentication data.
@@ -20,7 +22,7 @@ The system is built using Spring Boot microservices, each serving a specific pur
 - **Insurance Management Microservice**: Manages policies for car and health insurance.
 
 Each microservice is deployed in a containerized environment using Docker and orchestrated via Kubernetes (AWS EKS).
-![WhatsApp Image 2025-01-20 at 03 05 57](https://github.com/user-attachments/assets/5a51bf98-43ca-466d-89f9-3784c9380659)
+
 
 
 ### 2. **Predictive Models**
