@@ -89,7 +89,7 @@ The application is hosted on AWS with the following resources:
 - Flask (for predictive models)
 
 ### **Frontend**
-- Angular
+- React
 
 ### **DevOps & Cloud**
 - AWS (EKS, EC2, RDS, S3, CloudWatch)
