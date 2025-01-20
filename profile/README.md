@@ -1,9 +1,6 @@
 ## ASMAS BANK
 
 
-
-# Cloud-Native FinTech Application Documentation
-
 ## Overview
 This repository contains a cloud-native FinTech application designed to deliver secure, efficient, and scalable financial services. The application is based on a microservices architecture and includes predictive models for loan approval and insurance management. It also provides separate frontend applications for admin and client dashboards.
 
