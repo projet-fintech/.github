@@ -61,6 +61,9 @@ All components, including microservices and Flask models, are containerized usin
 ### 2. **Orchestration**
 Kubernetes (AWS EKS) is used to manage and scale containers across multiple nodes. Each service has its own deployment and service configuration in Kubernetes.
 
+![image](https://github.com/user-attachments/assets/20ec1256-c583-4b99-8643-0fb400b2daed)
+
+
 ### 3. **Cloud Infrastructure**
 The application is hosted on AWS with the following resources:
 - **Compute**: EC2 instances managed by EKS.
